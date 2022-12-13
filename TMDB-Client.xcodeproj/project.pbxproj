@@ -16,6 +16,18 @@
 		752C677A2948E7540057ECC8 /* TMDB_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67792948E7540057ECC8 /* TMDB_ClientTests.swift */; };
 		752C67842948E7540057ECC8 /* TMDB_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67832948E7540057ECC8 /* TMDB_ClientUITests.swift */; };
 		752C67862948E7540057ECC8 /* TMDB_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67852948E7540057ECC8 /* TMDB_ClientUITestsLaunchTests.swift */; };
+		752C67A62948E7F10057ECC8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67942948E7F10057ECC8 /* MainViewController.swift */; };
+		752C67A72948E7F10057ECC8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67952948E7F10057ECC8 /* MainViewModel.swift */; };
+		752C67A82948E7F10057ECC8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67962948E7F10057ECC8 /* MainView.swift */; };
+		752C67A92948E7F10057ECC8 /* AutolayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67992948E7F10057ECC8 /* AutolayoutBuilder.swift */; };
+		752C67AA2948E7F10057ECC8 /* UIView+AddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C679A2948E7F10057ECC8 /* UIView+AddSubviews.swift */; };
+		752C67AB2948E7F10057ECC8 /* AnySwiftUIHolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C679D2948E7F10057ECC8 /* AnySwiftUIHolderView.swift */; };
+		752C67AC2948E7F10057ECC8 /* SwiftUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C679F2948E7F10057ECC8 /* SwiftUIViewController.swift */; };
+		752C67AD2948E7F10057ECC8 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67A02948E7F10057ECC8 /* SwiftUIView.swift */; };
+		752C67AE2948E7F20057ECC8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67A22948E7F10057ECC8 /* BaseViewController.swift */; };
+		752C67AF2948E7F20057ECC8 /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67A32948E7F10057ECC8 /* BaseFactory.swift */; };
+		752C67B02948E7F20057ECC8 /* AnyBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67A42948E7F10057ECC8 /* AnyBaseViewModel.swift */; };
+		752C67B12948E7F20057ECC8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752C67A52948E7F10057ECC8 /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		752C677F2948E7540057ECC8 /* TMDB-ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMDB-ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		752C67832948E7540057ECC8 /* TMDB_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_ClientUITests.swift; sourceTree = "<group>"; };
 		752C67852948E7540057ECC8 /* TMDB_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDB_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		752C67942948E7F10057ECC8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		752C67952948E7F10057ECC8 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		752C67962948E7F10057ECC8 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		752C67992948E7F10057ECC8 /* AutolayoutBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutBuilder.swift; sourceTree = "<group>"; };
+		752C679A2948E7F10057ECC8 /* UIView+AddSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviews.swift"; sourceTree = "<group>"; };
+		752C679D2948E7F10057ECC8 /* AnySwiftUIHolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnySwiftUIHolderView.swift; sourceTree = "<group>"; };
+		752C679F2948E7F10057ECC8 /* SwiftUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIViewController.swift; sourceTree = "<group>"; };
+		752C67A02948E7F10057ECC8 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		752C67A22948E7F10057ECC8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		752C67A32948E7F10057ECC8 /* BaseFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
+		752C67A42948E7F10057ECC8 /* AnyBaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyBaseViewModel.swift; sourceTree = "<group>"; };
+		752C67A52948E7F10057ECC8 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,7 @@
 		752C67612948E7520057ECC8 /* TMDB-Client */ = {
 			isa = PBXGroup;
 			children = (
+				752C67922948E7F10057ECC8 /* Flow UIKIt + SwiftUI */,
 				752C67622948E7520057ECC8 /* AppDelegate.swift */,
 				752C67642948E7520057ECC8 /* SceneDelegate.swift */,
 				752C67662948E7520057ECC8 /* ViewController.swift */,
@@ -125,6 +150,81 @@
 				752C67852948E7540057ECC8 /* TMDB_ClientUITestsLaunchTests.swift */,
 			);
 			path = "TMDB-ClientUITests";
+			sourceTree = "<group>";
+		};
+		752C67922948E7F10057ECC8 /* Flow UIKIt + SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				752C67932948E7F10057ECC8 /* Scenes */,
+				752C67972948E7F10057ECC8 /* UIKit */,
+				752C67A12948E7F10057ECC8 /* Flow */,
+			);
+			path = "Flow UIKIt + SwiftUI";
+			sourceTree = "<group>";
+		};
+		752C67932948E7F10057ECC8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				752C67942948E7F10057ECC8 /* MainViewController.swift */,
+				752C67952948E7F10057ECC8 /* MainViewModel.swift */,
+				752C67962948E7F10057ECC8 /* MainView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		752C67972948E7F10057ECC8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				752C67982948E7F10057ECC8 /* Autolayout */,
+				752C679B2948E7F10057ECC8 /* SwiftUIHosting */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		752C67982948E7F10057ECC8 /* Autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				752C67992948E7F10057ECC8 /* AutolayoutBuilder.swift */,
+				752C679A2948E7F10057ECC8 /* UIView+AddSubviews.swift */,
+			);
+			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		752C679B2948E7F10057ECC8 /* SwiftUIHosting */ = {
+			isa = PBXGroup;
+			children = (
+				752C679C2948E7F10057ECC8 /* Protocols */,
+				752C679E2948E7F10057ECC8 /* Helpers */,
+			);
+			path = SwiftUIHosting;
+			sourceTree = "<group>";
+		};
+		752C679C2948E7F10057ECC8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				752C679D2948E7F10057ECC8 /* AnySwiftUIHolderView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		752C679E2948E7F10057ECC8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				752C679F2948E7F10057ECC8 /* SwiftUIViewController.swift */,
+				752C67A02948E7F10057ECC8 /* SwiftUIView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		752C67A12948E7F10057ECC8 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				752C67A22948E7F10057ECC8 /* BaseViewController.swift */,
+				752C67A32948E7F10057ECC8 /* BaseFactory.swift */,
+				752C67A42948E7F10057ECC8 /* AnyBaseViewModel.swift */,
+				752C67A52948E7F10057ECC8 /* BaseView.swift */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +358,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752C67AA2948E7F10057ECC8 /* UIView+AddSubviews.swift in Sources */,
+				752C67A72948E7F10057ECC8 /* MainViewModel.swift in Sources */,
+				752C67AD2948E7F10057ECC8 /* SwiftUIView.swift in Sources */,
+				752C67A82948E7F10057ECC8 /* MainView.swift in Sources */,
 				752C67672948E7520057ECC8 /* ViewController.swift in Sources */,
+				752C67AE2948E7F20057ECC8 /* BaseViewController.swift in Sources */,
+				752C67B02948E7F20057ECC8 /* AnyBaseViewModel.swift in Sources */,
+				752C67AC2948E7F10057ECC8 /* SwiftUIViewController.swift in Sources */,
 				752C67632948E7520057ECC8 /* AppDelegate.swift in Sources */,
+				752C67AB2948E7F10057ECC8 /* AnySwiftUIHolderView.swift in Sources */,
+				752C67AF2948E7F20057ECC8 /* BaseFactory.swift in Sources */,
 				752C67652948E7520057ECC8 /* SceneDelegate.swift in Sources */,
+				752C67B12948E7F20057ECC8 /* BaseView.swift in Sources */,
+				752C67A92948E7F10057ECC8 /* AutolayoutBuilder.swift in Sources */,
+				752C67A62948E7F10057ECC8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
